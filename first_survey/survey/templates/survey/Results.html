@@ -1,0 +1,18 @@
+{% extends "global/Page.html" %}
+{% load otree static %}
+
+{% block title %}
+    Results
+{% endblock %}
+
+{% block content %}
+
+    <p>Your name is {{ player.name }} y {{ player.surname }}  
+        and your ID code is {{ player.id_analyst }}
+    </p>
+
+    {% next_button %}
+
+{% endblock %}
+
+
